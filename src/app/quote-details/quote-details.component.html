@@ -1,0 +1,17 @@
+
+<blockquote class="blockquote">
+    <p class="mb-0"> “ {{quote.quote|titlecase}}.”</p>
+   <footer > {{quote.author|titlecase}}</footer>
+</blockquote>
+  <div class="votes">
+      <button class="btn btn-xs btn-danger" id="del" (click)='quoteDelete(true)'><i class="fa fa-trash" id="delete"></i></button>     
+      <div class="card-body">
+        <div class="card-text green">
+            <div class="container-fluid" >
+                <button class="btn btn-sm btn-success"  (click)='likes()'>{{quote.likes}} <i class="fa fa-thumbs-up" id="like"></i></button>
+                <button class="btn btn-sm btn-danger"  (click)='dislikes()'>{{quote.dislikes}}<i class="fa fa-thumbs-down" id="dislike"></i></button>     
+           </div>
+        </div>
+     </div>
+ </div>
+  
