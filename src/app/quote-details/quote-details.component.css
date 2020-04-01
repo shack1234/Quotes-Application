@@ -1,0 +1,30 @@
+#delete{
+  font-size: 20px;
+  margin-right: 2%;
+}
+#del{
+  float:right;
+  margin-top: 5%;
+}
+hr{
+  background-color: darkcyan;
+}
+#buttons{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#when{
+  float:right;
+  font-family: 'Handlee', cursive;
+}
+#like{
+  font-size: 14px;
+}
+#dislike{
+  font-size: 14px;
+  
+}
+.btn-danger{
+  margin-left: 10px;   
+}
+
